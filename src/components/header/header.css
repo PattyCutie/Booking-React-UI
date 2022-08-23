@@ -1,0 +1,212 @@
+.header {
+    background-color: #00B1B0;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-bottom: 1px solid #FF8370;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+    padding: 20px;
+    height: 300px;
+}
+
+.headerContainer.listMode {
+    margin: 20px 0px 0px 0px;
+}
+
+.headerList {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.headerListItem.active {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerDescription {
+    margin: 20px 0px;
+}
+
+.headerButton {
+    background-color: #FF8370;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.headerSearch {
+    display: flex;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #FF8370;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-radius: 20px;
+    bottom: -25px;
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput {
+    border: none;
+    outline: none;
+
+}
+
+.headerSearchInput::placeholder {
+    color: #b0b0b0;
+    font-size: 14px;
+}
+
+.headerSearchIcon {
+    color: #FF8370;
+    margin: 5px;
+}
+
+.headerSearchText {
+    color: #b0b0b0;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.headerSearchButton {
+    background-color: #FF8370;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+/* Calendar Range START */
+.calendarDateRange {
+    position: absolute;
+    top: 50px;
+}
+
+
+.rdrInRange,
+.rdrStartEdge,
+.rdrEndEdge {
+    background-color: #FF8370 !important;
+}
+
+.rdrDayToday .rdrDayNumber span::after {
+    background: #FF8370 !important;
+    border-bottom: 1px solid #ffffff !important;
+}
+
+.rdrCalendarWrapper.rdrDateRangeWrapper.calendarDateRange {
+    background-color: #ff837050 !important;
+    border-radius: 20px !important;
+}
+
+.rdrDateDisplayWrapper {
+    background-color: #ff837075 !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+
+}
+
+.rdrNextPrevButton,
+.rdrPprevButton {
+    background-color: #ff837035 !important;
+    border-radius: 20px !important;
+}
+
+.rdrMonthAndYearPickers {
+    background-color: #FF837035 !important;
+    border-radius: 20px !important;
+}
+
+.rdrWeekDays {
+    background-color: #FF837035 !important;
+    border-radius: 20px !important;
+}
+
+.rdrWeekDay {
+    color: #878787 !important;
+    font-weight: 600 !important;
+}
+
+.rdrDateInput,
+.rdrDateDisplayItem,
+.rdrDateDisplayItem:Active {
+    border-color: #FF8370 !important;
+    border-radius: 20px !important;
+
+}
+
+
+.rdrDayStartPreview,
+.rdrDayEndPreview,
+.rdrDayInPreview {
+    border-color: #FF8370 !important;
+}
+
+.rdrDayNumber {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+.rdrDayPassive>.rdrDayNumber>span {
+    color: #878787 !important;
+    font-weight: normal !important;
+}
+
+/*Calendar range END*/
+
+/* Option Counter button*/
+.options {
+    position: absolute;
+    top: 50px;
+    background-color: #FFFFFF;
+    color: #878787;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.5);
+}
+
+.optionItem {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #000;
+}
