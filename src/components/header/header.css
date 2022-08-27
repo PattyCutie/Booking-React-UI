@@ -11,9 +11,8 @@
     width: 100%;
     max-width: 1024px;
     margin: 20px 0px 100px 0px;
-    padding: 20px;
-    height: 300px;
 }
+
 
 .headerContainer.listMode {
     margin: 20px 0px 0px 0px;
@@ -59,7 +58,7 @@
     border: 1px solid #FF8370;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 10px 0px;
     border-radius: 20px;
     bottom: -25px;
     position: absolute;
@@ -107,9 +106,14 @@
 }
 
 /* Calendar Range START */
-.calendarDateRange {
+.headerCalendarDateRange {
     position: absolute;
     top: 50px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(255, 131, 112, 0.5);
+    -moz-box-shadow: 0px 0px 10px -2px rgba(255, 131, 112, 0.5);
+    box-shadow: 0px 0px 10px -2px rgba(255, 131, 112, 0.5);
+    z-index: 2;
 }
 
 
@@ -125,12 +129,12 @@
 }
 
 .rdrCalendarWrapper.rdrDateRangeWrapper.calendarDateRange {
-    background-color: #ff837050 !important;
+    background-color: #fff !important;
     border-radius: 20px !important;
 }
 
 .rdrDateDisplayWrapper {
-    background-color: #ff837075 !important;
+    background-color: #ff837035 !important;
     border-top-left-radius: 20px !important;
     border-top-right-radius: 20px !important;
 
@@ -141,6 +145,13 @@
     background-color: #ff837035 !important;
     border-radius: 20px !important;
 }
+
+.rdrNextPrevButton:hover,
+.rdrPprevButton:hover {
+    background-color: #EED6D1 !important;
+}
+
+
 
 .rdrMonthAndYearPickers {
     background-color: #FF837035 !important;
@@ -155,6 +166,10 @@
 .rdrWeekDay {
     color: #878787 !important;
     font-weight: 600 !important;
+}
+
+.rdrMonthsVertical {
+    align-items: center;
 }
 
 .rdrDateInput,
@@ -186,27 +201,60 @@
 
 /* Option Counter button*/
 .options {
+    border-radius: 20px;
     position: absolute;
     top: 50px;
     background-color: #FFFFFF;
     color: #878787;
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.5);
+
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(255, 131, 112, 0.5);
+    -moz-box-shadow: 0px 0px 10px -2px rgba(255, 131, 112, 0.5);
+    box-shadow: 0px 0px 10px -2px rgba(255, 131, 112, 0.5);
+    z-index: 2;
 }
 
 .optionItem {
     display: flex;
-    width: 200px;
+    width: 220px;
     justify-content: space-between;
     margin: 10px;
+}
+
+.optionText {
+    background-color: #ff837035;
+    font-size: 12px;
+    padding: 0 10px;
+    border-radius: 20px;
 }
 
 .optionCounter {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 12px;
+    font-size: 14px;
+    color: #878787;
+}
+
+.optionCounterButton {
+    width: 30px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid #FF8370;
+    color: #FF8370;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.optionCounterButton:hover {
+    background-color: #FF8370;
+    color: #fff;
+}
+.optionCounterButton:disabled {
+    cursor: not-allowed;
+    background-color: #fff !important;
+   
+}
+
+.optionCounterNumber {
     color: #000;
 }

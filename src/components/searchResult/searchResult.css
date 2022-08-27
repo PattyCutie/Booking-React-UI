@@ -1,0 +1,109 @@
+.searchResult { 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    gap: 20px;
+    border: 1px solid #ff8370;
+    border-radius: 20px;
+}
+
+.searchResultImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.searchResultDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+.searchResultTitle {
+    font-size: 20px;
+    color: #878787;
+}
+
+.searchResultDistance {
+    font-size: 12px;
+}
+
+.searchResultTaxi {
+    font-size: 12px;
+    background-color: #3AA3A0;
+    color: #fff;
+    width: max-content;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+.searchResultSubtitle {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.searchResultFeatures {
+    font-size: 12px;
+}
+.searchResultCancelOption {
+    font-size: 12px;
+    color: #3AA3A0;
+    font-weight: bold;
+}
+
+.searchResultCancelOptionSubtitle{
+    font-size: 12px;
+    color: #3AA3A0;
+}
+
+
+/* Details section */
+.searchResultDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchResultDetailRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchResultDetailRating > spam {
+    font-weight: 500;
+}
+.searchResultDetailRating > button {
+    background-color: #ff8370;
+    color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+}
+
+.searchResultDetailTexts {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 5px;
+}
+
+.searchResultDetailPrice {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.searchResultDetailTax {
+    font-size: 12px;
+    color: #878787;
+}
+
+.searchResultDetailCheckButton {
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    background-color: #ff8370;
+}

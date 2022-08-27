@@ -1,0 +1,43 @@
+.featuredProperties {
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.fppItem {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.fppImg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.fppName {
+    color: #333;
+    font-weight: bold;
+}
+
+.fppPrice {
+    font-weight: 500;
+}
+
+.fppRating > button {
+    background-color: #ff8370;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 4px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.fppRating > span {
+    font-size: 14px;
+}

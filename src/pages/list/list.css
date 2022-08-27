@@ -1,0 +1,103 @@
+.listContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.listWrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex; 
+    gap: 20px;
+    
+}
+
+.listSearch {  
+    position: sticky;
+    flex: 1;
+    background-color: #ff837035;
+    border: 1px solid #ff8370;
+    border-radius: 20px;
+    padding: 20px;
+    top: 10px;
+    height: max-content;
+}
+
+.listTitle {
+    font-size: 20px;
+    color: #878787;
+    margin-bottom: 10px;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.listDestinationInput {
+    border-radius: 20px;
+    border: 1px solid #878787;
+    outline: none;
+    padding: 10px;
+    height: 30px;
+}
+
+.listCheckinDate {
+    border-radius: 20px;
+    border: 1px solid #878787;
+    background-color: #fff;
+    outline: none;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.listItem > label {
+    font-size: 12px;
+}
+
+.SearchCalendar {
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.listOptionItems {
+    padding: 10px;
+}
+
+.listOptionItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #878787;
+    font-size: 12px;
+}
+.listOptionInput {
+    width: 50px;
+    border-radius: 20px;
+    border: 1px solid #878787;
+    background-color: #fff;
+    outline: none;
+    padding: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.listSearchButton {
+    padding: 8px 20px;
+    background-color: #ff8370;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.listResult {
+    flex: 3;
+}
