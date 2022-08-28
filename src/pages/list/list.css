@@ -6,7 +6,7 @@
 
 .listWrapper {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
     display: flex; 
     gap: 20px;
     
@@ -15,12 +15,13 @@
 .listSearch {  
     position: sticky;
     flex: 1;
-    background-color: #ff837035;
+    background-color: #ff837015;
     border: 1px solid #ff8370;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     top: 10px;
     height: max-content;
+    min-width: 340px;
 }
 
 .listTitle {
@@ -41,7 +42,7 @@
     border: 1px solid #878787;
     outline: none;
     padding: 10px;
-    height: 30px;
+    height: 10px;
 }
 
 .listCheckinDate {
@@ -50,7 +51,7 @@
     background-color: #fff;
     outline: none;
     padding: 10px;
-    height: 30px;
+    height: 10px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -61,8 +62,8 @@
 }
 
 .SearchCalendar {
-    border-radius: 20px;
     margin-top: 5px;
+    border-radius: 20px !important;
 }
 
 .listOptionItems {
@@ -74,7 +75,7 @@
     justify-content: space-between;
     margin-bottom: 10px;
     color: #878787;
-    font-size: 12px;
+    font-size: 14px;
 }
 .listOptionInput {
     width: 50px;
@@ -83,7 +84,7 @@
     background-color: #fff;
     outline: none;
     padding: 10px;
-    height: 30px;
+    height: 10px;
     cursor: pointer;
 }
 

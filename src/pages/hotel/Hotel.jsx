@@ -56,7 +56,7 @@ function Hotel() {
   }
 
   return (
-    <div className="hotel">
+    <div>
       <Navbar />
       <Header type="list" />
 
@@ -64,6 +64,7 @@ function Hotel() {
         {/*Slider popup */}
         {openImgSlider && (
           <div className="sliderWrapper">
+            
             <FontAwesomeIcon
               icon={faCircleXmark}
               className="sliderClose"

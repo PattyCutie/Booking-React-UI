@@ -133,6 +133,10 @@
     border-radius: 20px !important;
 }
 
+.rdrDayDisabled  {
+    background-color: #fff!important;
+}
+
 .rdrDateDisplayWrapper {
     background-color: #ff837035 !important;
     border-top-left-radius: 20px !important;
